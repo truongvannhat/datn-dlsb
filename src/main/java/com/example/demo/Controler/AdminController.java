@@ -179,6 +179,14 @@ public class AdminController {
         return modelAndView;
     }
 
+    //thống kê
+    //hiển thị form thống kê
+    @GetMapping("admin/thongke")
+    public ModelAndView showStatistical(){
+        ModelAndView modelAndView = new ModelAndView("admin/thongke");
+        modelAndView.addObject("thongke");
+        return modelAndView;
+    }
 }
 
 

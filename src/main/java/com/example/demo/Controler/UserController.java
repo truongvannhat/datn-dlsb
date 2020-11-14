@@ -1,10 +1,7 @@
 package com.example.demo.Controler;
 
 import com.example.demo.IRepository.*;
-import com.example.demo.Model.Booking;
-import com.example.demo.Model.SlotSubPitch;
-import com.example.demo.Model.SubPitch;
-import com.example.demo.Model.User;
+import com.example.demo.Model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
